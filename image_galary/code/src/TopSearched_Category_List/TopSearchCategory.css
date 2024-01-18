@@ -1,0 +1,50 @@
+
+.topsearchHeading
+{
+	width:100%;
+	height:auto;
+	font-size:20px;
+	color:rgba(100,100,100,1);
+	padding-left:10px;padding-right:10px;
+	text-align:center;
+	margin-top:20px;
+}
+.topSearch_Category_Container
+{
+	width:100%;
+	height:auto;
+	margin:auto;
+	padding-left:10px;padding-right:10px;padding-top:10px;padding-bottom:10px;
+	/overflow:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.topSearch
+{
+	width:auto;
+	height:auto;	
+	margin-left:5px;margin-right:5px;	margin-top:5px;margin-bottom:5px;
+	padding-left:20px;padding-right:20px;padding-top:2px;padding-bottom:2px;
+	border-radius:15px;
+	border:2px solid rgba(0,0,0,1);
+	outline:none;
+	background:#fff;
+	color:rgba(0,0,0,1);
+	font-size:15px;
+}
+.topSearch:hover
+{
+	background:rgba(0,0,0,1);;
+	color:rgba(255,255,255,1);
+}
+
+
+@media only screen and (max-width : 500px)
+{
+	.topsearchHeading
+	{
+		font-size:18px;
+	}
+}

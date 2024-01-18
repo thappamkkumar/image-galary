@@ -1,0 +1,68 @@
+.uploadImageContainer
+{
+	width:100%;
+	min-height:100vh;
+	height:auto;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.3);
+	/backdrop-filter:blur(10px);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.uploadImage
+{
+	width:500px;
+	height:auto;
+	padding:50px 20px 50px 20px;
+	background:rgba(255,255,255,0.5);
+	backdrop-filter:blur(10px);
+	box-shadow:0px 10px 15px -8px rgba(0,0,0,0.9);
+}
+.uploadText
+{
+	padding:10px 0px 10px 0px;
+	color:#000;
+}
+.uploadInput
+{
+	width:100%;
+	height:auto;
+	padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;
+	border:none;
+	outline:none;
+	box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2);
+	background:#fff;
+	border:2px solid rgba(0,0,0,0.1);
+	margin-bottom:10px;
+	border-radius:5px;
+	font-size:16px;
+}
+.uploadInput:focus
+{
+	border:2px solid rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.1);
+}
+.uploadbtn, .removeImages
+{
+	width:auto;
+	height:auto;
+	padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;
+	border:none;
+	outline:none;
+	font-size:16px;
+	border:2px solid rgba(50,200,100,1);
+	background-color:rgba(50,200,100,1);
+	color:#fff;
+	border-radius	:5px;
+}
+.uploadbtn:hover, .removeImages:hover
+{
+	background-color:rgba(50,150,100,1);
+}
+.removeImages
+{
+	float:right;
+}

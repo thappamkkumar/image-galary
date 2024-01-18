@@ -1,0 +1,22 @@
+.topheader
+{
+	width:100%;
+	height:auto;
+	background-color:rgba(255,100,50,1);
+	font-size:40px;
+	font-weight:bold;color:#fff;
+	padding-top:10px;padding-left:10px;padding-bottom:10px;padding-right:10px;
+	text-align:center;
+}
+@media only screen and (max-width: 800px)
+{
+	.topheader{
+		font-size:30px;
+	}
+}
+@media only screen and (max-width: 500px)
+{
+	.topheader{
+		font-size:25px;
+	}
+}

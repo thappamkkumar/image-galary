@@ -1,0 +1,59 @@
+.ImageContainer
+{
+	width:70%;
+	height:auto;
+	margin:auto;
+	padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.ImageContainer_img 
+{
+	width:150px;
+	height:150px;
+	background:#fff;
+	border:none;
+	outline:none;
+	padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;
+	animation:ImageContainer_imganimate 3s linear 0s 1 normal;
+	animation-fill-mode:forward;
+}
+@keyframes ImageContainer_imganimate
+{
+	0%
+	{opacity:0;}
+	100%
+	{opacity:1;}
+}			
+.ImageContainer_img:hover
+{
+	filter:blur(2px);
+}
+
+@media only screen and (max-width: 500px)
+{
+	.ImageContainer_img
+	{
+		width:100px;
+		height:100px;
+	}
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.ImageContainer
+	{
+		width:90%;
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	.ImageContainer
+	{
+		width:100%;
+	}
+}

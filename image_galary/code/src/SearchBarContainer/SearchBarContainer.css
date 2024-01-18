@@ -1,0 +1,83 @@
+.SearchBarContainer
+{
+	width:90%;
+	height:auto;
+	padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;
+	/background-color:rgba(100,100,100,1);
+	margin:auto;
+	margin-top:40px;
+	display:flex;
+	justify-content:center;
+}
+.addBTN
+{
+	width:auto;
+	height:auto;
+	padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;
+	font-size:16px;
+	border:2px solid rgba(0,100,0,0.0);
+	background-color:rgba(0,100,0,0.7);
+	color:#fff;
+	border-radius	:5px;
+}
+.addBTN:hover
+{
+	background-color:rgba(0,100,0,1);
+}
+.searchInput
+{
+	width:300px;
+	height:auto;
+	padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;
+	border:none;
+	outline:none;
+	box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2);
+	/box-shadow:0px 10px 10px -10px rgba(100,100,100,1);
+	border:2px solid rgba(0,0,0,0.1);
+	margin-right:10px;
+	border-radius	:5px;
+	font-size:16px;
+}
+.searchInput:focus
+{
+	border:2px solid rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.1);
+}
+.searchBTN, .addImages
+{
+	width:auto;
+	height:auto;
+	padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;
+	border:none;
+	outline:none;
+	font-size:16px;
+	border:2px solid rgba(50,200,100,1);
+	background-color:rgba(50,200,100,1);
+	color:#fff;
+	border-radius:5px;
+}
+.searchBTN:hover, .addImages:hover
+{
+	background-color:rgba(50,150,100,1);
+}
+.addImages
+{
+	margin-left:10px;
+	 
+}
+@media only screen and (max-width: 500px)
+{
+	.SearchBarContainer
+	{
+		width:100%;
+	}
+	.searchInput
+	{
+		width:200px;
+		margin-right:5px;
+	}
+	.searchBTN
+	{
+		padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;
+	}
+}
